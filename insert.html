@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <title>เพิ่ม เมนู</title><br>
+    <style>
+        body {
+          background-image: url('https://sv1.picz.in.th/images/2021/03/25/D6WmRS.jpg');
+          background-size: cover;
+          font-size: medium;
+        }
+        </style>
+</head>
+<body>
+    <center><form action="insert.php" method="POST" enctype="multipart/form-data">
+    <h4>เพิ่มเมนู</h4>
+    <div></div>
+    <input type="text" name="menu">
+    <br>
+    <div>ราคา</div>
+    <input type="text" name="price">
+    <br>
+    <div>รายระเอียด</div>
+    <input type="text" name="detail">
+    <br>
+    <div>รูปภาพ</div>
+    <input type="file" name="images">
+    <br>
+    <button type="submit" name="upload">เพิ่ม</button>
+    </form>
+    <h2><form method="post" action="main.html">
+        <input type="submit" value="ย้อนกลับ">
+    </form><h2></center></h2>
+</body>
+</html>
